@@ -1,7 +1,4 @@
-# telecom-data-pipeline-aws
-A serverless ETL pipeline for ingesting and processing telecom customer subscriptions using AWS Glue, S3, and RDS
-
-# AWS Glue Incremental ETL Pipeline
+# Telecom - AWS Glue Incremental ETL Pipeline
 
 This repository showcases a **simple AWS Glue ETL** process that ingests daily-partitioned data from an upstream source in **Amazon S3**, transforms it incrementally, and loads the cleaned data into an **Amazon RDS** instance. It leverages **AWS Glue Crawlers** to track evolving schemas, **Amazon CloudWatch** for automated triggers, and **IAM + VPC** configurations for secure operations.
 
